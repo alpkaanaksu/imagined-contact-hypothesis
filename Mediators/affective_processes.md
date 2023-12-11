@@ -166,4 +166,4 @@ Up for debate: Direct influence of imagined contact to outcome? Or only through 
 In this case: Moderators would be influencing not only mediators. 
 
 # VAST Display
-![VAST_display.jpg]
+![VAST Display](VAST_display.png)
