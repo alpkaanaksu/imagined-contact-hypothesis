@@ -20,15 +20,16 @@ refers to the emotional response, conscious feelings, or sentiments an individua
 
 **Boehm et al. (2010) http://dx.doi.org/10.2304/elea.2010.7.2.133**
 
-- "ethnocentrism can create ‘a barrier to effective and competent intercultural communication’" (p. 134)
-- critical assessment of students’ own cultural identity, and on depgree of openness to different perspectives and cultural values (p. 134)
--
+> Therefore we reject our hypothesis that participation in a six-week student online collaborative project, conducted with different samples over a period of six semesters, has a statistically significant effect on decreasing ethnocentrism levels in either the American or the Polish student samples (p. 140).
+
 - U: 204 in experimental conditions, 459 in control conditions
 - T: online collaboration between international college students
 - O: Measured construct "Ethnocentrism" = tendency to look at the world primarily from the perspective of one’s own (p. 134)
   - Instrument: Generalized Ethnocentrism or GENE scale (James Neuliep & James McCroskey, 1997)
   - sample items: "Most other cultures are backward compared to my culture", "Lifestyles in other cultures are just as valid as those in my culture. "
-- S:
+- S: quasi-experimental study in two countries
+
+**Verdict**: ethnocentrism focuses more on cognitive aspects of attitude towards the outgroup and the study examined direct contact with the outgroup in online collaboration tasks. Therefore, the results form this study do not help to gauge the effect size of imagined contact on affective attitude as per our working definition.
 
 **Al Ramiah (2012) http://dx.doi.org/10.1111/j.2044-8309.2011.02041.x**
 
