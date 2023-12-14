@@ -20,27 +20,26 @@ refers to the emotional response, conscious feelings, or sentiments an individua
 
 **Boehm et al. (2010) http://dx.doi.org/10.2304/elea.2010.7.2.133**
 
-Measured construct: Ethnocentrism = tendency to look at the world primarily from the perspective of one’s own (p. 134)
-
 - "ethnocentrism can create ‘a barrier to effective and competent intercultural communication’" (p. 134)
 - critical assessment of students’ own cultural identity, and on depgree of openness to different perspectives and cultural values (p. 134)
-- Instrument: Generalized Ethnocentrism or GENE scale (James Neuliep & James McCroskey, 1997)
-  - sample item: "Most other cultures are backward compared to my culture", "Lifestyles in other cultures are just as valid as those in my culture. "
-- U:
-- T:
-- O:
+-
+- U: 204 in experimental conditions, 459 in control conditions
+- T: online collaboration between international college students
+- O: Measured construct "Ethnocentrism" = tendency to look at the world primarily from the perspective of one’s own (p. 134)
+  - Instrument: Generalized Ethnocentrism or GENE scale (James Neuliep & James McCroskey, 1997)
+  - sample items: "Most other cultures are backward compared to my culture", "Lifestyles in other cultures are just as valid as those in my culture. "
 - S:
 
 **Al Ramiah (2012) http://dx.doi.org/10.1111/j.2044-8309.2011.02041.x**
 
-Measured construct: Participants completed measures of outgroup attitudes and stereotypes that were combined to form an outgroup evaluations measure (p. 246)
+Measured construct:
 CAVE: instruments are developed for this study, although adapted from other
 
-- outgroup attitude: "extent to which they liked the outgroup" , "how positive they felt towards the outgroup"
-- stereotype: "extent to which they thought outgroup members were friendly, warm, trustworthy, competent, hardworking, andintelligent"
 - U:
 - T:
-- O:
+- O: Participants completed measures of outgroup attitudes and stereotypes that were combined to form an outgroup evaluations measure (p. 246)
+  - outgroup attitude: "extent to which they liked the outgroup" , "how positive they felt towards the outgroup"
+  - stereotype: "extent to which they thought outgroup members were friendly, warm, trustworthy, competent, hardworking, andintelligent"
 - S:
 
 # Approach Tendency
