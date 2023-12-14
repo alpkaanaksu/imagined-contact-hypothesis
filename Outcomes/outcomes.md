@@ -6,7 +6,7 @@ refers to the emotional response, conscious feelings, or sentiments an individua
 
 ## Theoretical Findings
 
-**Richard J. Crisp* and Rhiannon N. Turnern**
+**Richard J. Crisp and Rhiannon N. Turnern**
 
 - -> range of outcomes relevant to improving intergroup relations
 - -> _**not just intergroup attitudes (the latter being one component of the range of relevant outcomes)**_
@@ -40,6 +40,11 @@ Propose that attitudes toward outgroup (synonym: prejudice) consists of two dime
 - cognitive dimensions of prejudice (stereotypes, beliefs, and judgments) (p. 1151)
 
 > Those prejudice indicators based on affective dimensions show significant and more consistent relationships with intergroup contact, relative to the effects obtained with cognitively based indicators. (p.1154)
+
+**Crisp 2014**
+- Many metastudies show a heterogenous and broad definition of attitudes, including affect and explizit measures but not approach tendency.
+ intergroup bias is used as an umbrella term encapsulating attitudes, behavior, cognition and additional measure of stereotyping
+- attitudes also include many different subaspects including explizit and implicit measures - no approach tendency was measured though!
 
 ## Empirical Findings
 
@@ -76,7 +81,7 @@ inclination or desire to engage or interact with the outgroup
 
 ## Theoretical Findings
 
-**Richard J. Crisp* and Rhiannon N. Turnern**
+**Richard J. Crisp and Rhiannon N. Turnern**
 
 - The model presented above specifies positive impacts of imagined contact on a range of outcomes, all of which help _**prepare people for positive future encounters with the outgroup.**_ - S.137
 
@@ -91,6 +96,11 @@ inclination or desire to engage or interact with the outgroup
         - Seek out futher contact
         - engaging
 
+**Turner et al. (2013)**
+- search for approach tendency in combination with ICH
+- tested explizit cognitive approach tendency after ICH Intervention.
+- Showed increased approach tendency and reduced avoidance tendency mediated by increased trust and reduced anxiety towards the outgroup
+- Definition “approach tendency”: “The items used to measure approach behavioral tendencies were adapted from Mackie, Devos, and Smith (2000). Participants were asked to indicate agreement with the following statements:“In general,when thinking of asylum seekers, I want to . . .” which was followed with (a) talk to them; (b) find out more about them; and © spend time with them”
 
 ## Empirical Findings
 
@@ -108,7 +118,7 @@ S
 
 # Relations between variables 
 
-**Richard J. Crisp* and Rhiannon N. Turnern**
+**Richard J. Crisp and Rhiannon N. Turnern**
 
 <img width="535" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/0aa9f18f-7eef-46c2-9de1-22ca46b762d1">
 <img width="489" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/db670155-d0d9-4070-aca8-a7901dd9f189">
@@ -118,6 +128,15 @@ S
 > [This article defines "Approach tendencies" not as a sort of behaviorl componant of attitue but as part of a seperte construct called "Engagement".
             But even within this article the relatiobship between these to variables seems to be somewhat unclear. Whereas "enagegemnt" and "tolerance" and therefore their components "approch tuendencies" and "attitude" are first presented as two differnet outcomes suggesting no specific hirachy etc. between them, they are later presentet in a correlation graphic showing affect as the Mediator between "imagened conatct" and "behavioral tendenvies"
            What is more both of the components "Engagement" and "Tollerance" seem to have a Cognitive component as well , making the distinction in actual situtions somethimes difficult.]
+
+---
+
+Initial thought:
+Outcome (Attitude: Affect + approach tendency)??
+
+---
+
+<img width="545" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/afc67124-0e4d-4088-b16d-42afe5aa2e4e">
 
 
 # open questions/ comments/ conclusive thoughts/ ...
@@ -138,7 +157,7 @@ Alternative Möglichkeiten (aus Liertatur ergibt sich keine klare Lsg):
 
 # futhet posibilities for Research 
 
-**Richard J. Crisp* and Rhiannon N. Turnern**
+**Richard J. Crisp and Rhiannon N. Turnern**
 - Studies mentioned:
     - Stathi & Crisp, 200
         - Study 1:
