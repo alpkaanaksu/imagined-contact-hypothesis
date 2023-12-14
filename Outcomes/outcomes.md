@@ -8,13 +8,15 @@ refers to the emotional response, conscious feelings, or sentiments an individua
 
 **Tropp & Pettigrew (2005) http://dx.doi.org/10.1177/0146167205274854**
 
+Propose that attitudes toward outgroup (synonym: prejudice) consists of two dimensions:
+
 - affective dimensions of prejudice (emotions, favorability, and liking) (p. 1151 and 1152)
   - Emotions: Participants reported the extent to which they would expect to feel ten different emotional states when interacting with a outgroup person person
   - Favorability: participants indicated how they feel toward outgroup people
   - Anticipated liking in interactions (e.g. I think I would enjoy interactions with outgroup people)
 - cognitive dimensions of prejudice (stereotypes, beliefs, and judgments) (p. 1151)
 
-"Those prejudice indicators based on affective dimensions show significant and more consistent relationships with intergroup contact, relative to the effects obtained with cognitively based indicators." (p.1154)
+> Those prejudice indicators based on affective dimensions show significant and more consistent relationships with intergroup contact, relative to the effects obtained with cognitively based indicators. (p.1154)
 
 ## Empirical Findings
 
