@@ -6,6 +6,29 @@ refers to the emotional response, conscious feelings, or sentiments an individua
 
 ## Theoretical Findings
 
+**Richard J. Crisp* and Rhiannon N. Turnern**
+
+- -> range of outcomes relevant to improving intergroup relations
+- -> _**not just intergroup attitudes (the latter being one component of the range of relevant outcomes)**_
+
+- AFFECTIVE COMPONENT: **Tolerance**
+    - **Attidues** (inplicit & explicit) toward that group 
+        - **explicit attidues** (= conscious, deliberatjve, controllable, associated with behavior - self report)
+        - **implicit attidues** (= unintentiinally activated by mere presence of an attidue object, associated with subtle, indirect, spontaneous nonverbal behavior)
+    - **self-efficacy**
+        - _"According to Bandura’s theory, selfefficacy regulates human functioning via cognitive, affective, and motivational processes. Bandura defined self-efficacy as a person’s belief that she or he can effectively perform “courses of action required to deal with prospective situations containing many ambiguous, unpredictable, and often stressful elements” (Bandura & Schunk, 1981, p. 587)." - S.142_
+    
+    - relevant Components:
+        - promote tolerance 
+        - Reduce predjudes 
+        - reduce sterotype thinking (Stigma)
+        - Think more positively about outgroup
+        -  Projection of positive self-traits to others -> reduce ungroup favorism/ Outgroup degragation ("cognitive basis for ingroup favoritism")
+        - Beliefs About capacity to behave appropriatly and confidenly
+        - eliminating negative expectations
+        - reduce percieved threat
+        - Nervousness
+
 **Tropp & Pettigrew (2005) http://dx.doi.org/10.1177/0146167205274854**
 
 Propose that attitudes toward outgroup (synonym: prejudice) consists of two dimensions:
@@ -53,6 +76,22 @@ inclination or desire to engage or interact with the outgroup
 
 ## Theoretical Findings
 
+**Richard J. Crisp* and Rhiannon N. Turnern**
+
+- The model presented above specifies positive impacts of imagined contact on a range of outcomes, all of which help _**prepare people for positive future encounters with the outgroup.**_ - S.137
+
+- BEHAVIORAL COMPONENT: **Engagement**
+    - **Intentions**
+    - **Approach tendencies*
+    - **behavior**#
+
+    -  relevant Components:
+        - Beyond tolaernace (= explicit attiduces/ implicit attidues/ self-efficacy)
+        - stimulating Intentins to engage more positively with outgroup
+        - Seek out futher contact
+        - engaging
+
+
 ## Empirical Findings
 
 Study 1:
@@ -67,6 +106,55 @@ T
 O
 S
 
+# Relations between variables 
+
+**Richard J. Crisp* and Rhiannon N. Turnern**
+
+<img width="535" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/0aa9f18f-7eef-46c2-9de1-22ca46b762d1">
+<img width="489" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/db670155-d0d9-4070-aca8-a7901dd9f189">
+<img width="515" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/e5353ccd-878b-4a0d-9581-cdb10b00d83d">
+<img width="521" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/a9fd3343-668e-4d77-8ae4-3cbcf6ae22ff">
+
+> [This article defines "Approach tendencies" not as a sort of behaviorl componant of attitue but as part of a seperte construct called "Engagement".
+            But even within this article the relatiobship between these to variables seems to be somewhat unclear. Whereas "enagegemnt" and "tolerance" and therefore their components "approch tuendencies" and "attitude" are first presented as two differnet outcomes suggesting no specific hirachy etc. between them, they are later presentet in a correlation graphic showing affect as the Mediator between "imagened conatct" and "behavioral tendenvies"
+           What is more both of the components "Engagement" and "Tollerance" seem to have a Cognitive component as well , making the distinction in actual situtions somethimes difficult.]
+
+
+# open questions/ comments/ conclusive thoughts/ ...
+
+> **To conclude:**
+    It seems as though it is impossible to find a coherant interpretation/ definition of the terms: "affect" & "Approach tendencies" and their relationship to another. It seems therefore nessecary to formualte our own definition of our expected AVs in Order to continue with our Model and Prevent ambiguty. We can however be inspired by finding in literary research.
+
+> Außerdem: Frage bei Attidues nur explizite oder auch implizite? Unterscheidung für uns relevant? Wie definieren wir für Unser Modell?
+
 # VAST Display
 
 ![VAST Display](outcomes_VAST_diagram_v0.1.0.png)
+
+Alternative Möglichkeiten (aus Liertatur ergibt sich keine klare Lsg):
+<img width="563" alt="image" src="https://github.com/alpkaanaksu/imagined-contact-hypothesis/assets/148531401/569ddc0d-ee6e-42f6-8d05-8dbf6676a452">
+
+
+
+# futhet posibilities for Research 
+
+**Richard J. Crisp* and Rhiannon N. Turnern**
+- Studies mentioned:
+    - Stathi & Crisp, 200
+        - Study 1:
+            - 72 participants (29 males, 43 females).
+            - AV: Helping Intentions
+            - only common ingroup imagined contact condition (imagine belonging to a common group with an immigrant child and cooperating with him/her while taking part together in a competition against other teams) was significantly different from control condition -> not normal imagended contact condition
+        -  Study 2:
+            -  105 Italian undergraduate students(15 males, 89 females, plus one where sex was not specified)
+            -  AV: u.a. Contact Intentions
+            -  CAVE: ging nur darum zu zeigen, dass common ingroup imagened contact besser ist als standad imagened contact
+    -  Husnu & Crisp, 2010
+    -  Harwood, Paolini, Joyce, Rubin, & Arroyo, 2010
+    -  Turner, West, et al., in press
+    -  West et al., 2011
+    - Crisp & Husnu, 2011 
+    - Vezzali, Capozza,Stathi, & Giovannini, 2012
+    - (for a review focused on this outcome, see Crisp et al., 2010)
+    - ...
+    
