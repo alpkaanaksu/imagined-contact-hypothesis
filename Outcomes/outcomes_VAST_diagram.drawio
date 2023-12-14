@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2023-12-14T12:45:18.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MVq3WZjcJCgOhBFJ4571" version="22.1.8" type="device">
+  <diagram name="Seite-1" id="MKWQJLoHLc9qOP75Z5xH">
+    <mxGraphModel dx="1174" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UvJSpZQZPLTxlrHoe62g-42" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="182" width="700" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="UvJSpZQZPLTxlrHoe62g-2" value="FIMM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="152" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UvJSpZQZPLTxlrHoe62g-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UvJSpZQZPLTxlrHoe62g-27" target="UvJSpZQZPLTxlrHoe62g-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="420" as="sourcePoint" />
+            <mxPoint x="270" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UvJSpZQZPLTxlrHoe62g-22" value="n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="UvJSpZQZPLTxlrHoe62g-21" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UvJSpZQZPLTxlrHoe62g-26" value="&quot;inclination or desire to engage or interact with the outgroup&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="456" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UvJSpZQZPLTxlrHoe62g-27" value="Approach Tendency" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="191" y="366" width="118" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Y_Nf_6-CCuoH6848xhx-5" target="2Y_Nf_6-CCuoH6848xhx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="610" as="sourcePoint" />
+            <mxPoint x="380" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-3" value="n" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="2Y_Nf_6-CCuoH6848xhx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-4" value="&quot;emotional response, conscious feelings, or sentiments an individual or group has towards another group&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="456" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-5" value="Affective Attitude" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="506" y="366" width="118" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-6" value="Analysists: Laura, Jonathan, Dominik" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="152" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-7" value="Mediators" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="226" width="118" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Y_Nf_6-CCuoH6848xhx-7" target="UvJSpZQZPLTxlrHoe62g-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.5" y="280" as="sourcePoint" />
+            <mxPoint x="408.5" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-9" value="c" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="2Y_Nf_6-CCuoH6848xhx-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2Y_Nf_6-CCuoH6848xhx-7" target="2Y_Nf_6-CCuoH6848xhx-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <mxPoint x="380" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Y_Nf_6-CCuoH6848xhx-11" value="c" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="2Y_Nf_6-CCuoH6848xhx-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
