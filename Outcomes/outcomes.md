@@ -1,12 +1,12 @@
 # Affective Attitude
 
-## Definition
+## Working Definition
 
 refers to the emotional response, conscious feelings, or sentiments an individual or group has towards another group
 
 ## Theoretical Findings
 
-Tropp & Pettigrew (2005) http://dx.doi.org/10.1177/0146167205274854
+**Tropp & Pettigrew (2005) http://dx.doi.org/10.1177/0146167205274854**
 
 - affective dimensions of prejudice (emotions, favorability, and liking) (p. 1151 and 1152)
   - Emotions: Participants reported the extent to which they would expect to feel ten different emotional states when interacting with a outgroup person person
@@ -32,6 +32,7 @@ Measured construct: Ethnocentrism = tendency to look at the world primarily from
 - S:
 
 **Al Ramiah (2012) http://dx.doi.org/10.1111/j.2044-8309.2011.02041.x**
+
 Measured construct: Participants completed measures of outgroup attitudes and stereotypes that were combined to form an outgroup evaluations measure (p. 246)
 CAVE: instruments are developed for this study, although adapted from other
 
@@ -44,7 +45,7 @@ CAVE: instruments are developed for this study, although adapted from other
 
 # Approach Tendency
 
-## Definition
+## Working Definition
 
 inclination or desire to engage or interact with the outgroup
 
