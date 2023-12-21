@@ -1,4 +1,4 @@
-# Group 1: Mediating affective processes
+# Literature Search: Mediating affective processes (Group 1)
 Britt, Alp, Julia, Keno
 Meeting: Mo, 9:30 for VAST display about definitions
 
@@ -154,7 +154,7 @@ UTOS:
 - looks good in meta-analysis -> looking at individual studies: small ns, bad samples, does not seem robust
 - Other group: differing definitions for constructs and structure between constructs => compare them => agree on one
 
-# Summary
+# Summary 1 (11.12.23)
 Meta-Analyses were not productive, due to:
 - Did not investigate mediators.
 - Were not about imagined contact hypothesis.
@@ -165,5 +165,30 @@ Turned to individual studies. Extracted important facets of mediating affect in 
 Up for debate: Direct influence of imagined contact to outcome? Or only through Mediators?
 In this case: Moderators would be influencing not only mediators. 
 
-# VAST Display
+## VAST Display
 ![VAST Display](VAST_display.png)
+
+# Summary 2 (21.12.23)
+These tables are meant to give an overview over the studies invesigating the mediating processes. 
+
+Effect sizes are difficult to come by. While they can be easily computed from the given information for the performed t-tests, t-tests do not give any insight into the mediating effect since they treat the variables as simple outcomes. (Additionaly, Turner et al. (2013) seems to have used the wrong degrees of freedom.) <br>
+Most of the studies did not report any effect sizes for the mediating effects, just point estimates for regression coefficients or various correlations that create a pattern, from which it is impossible to interpret effect sizes for the mediating effect in a standardized way. <br> 
+The given information is insufficient to calculate effect sizes from it. <br>
+Some studies report the effect size $R^2$ for the mediating effect in graphs, but in these it is unclear which effect sizes relate to which specific model and/or effect. Sobel tests were used, with which we are not familliar.
+
+As a side note, Intergroup Anxiety was always assessed using a scale by Stephan and Stephan (1985). <br>
+Stephan, W. G., & Stephan, C. W. (1985). Intergroup Anxiety. Journal of Social Issues, 41(3), 157–175. https://doi.org/10.1111/j.1540-4560.1985.tb01134.x
+
+## Intergroup Anxiety
+| source                     | n                      | effect size                                                                                                             | U                                                                                   | T                                                           | O                                                                                                                                                   |
+|----------------------------|------------------------|-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Turner et al. (2007) Exp.3 | 27 (into 2 conditions) | d = -1.49 for t-test between cond.<br>b = -.05 (ns) for anx->og_var<br>b = -.64 (s) for anx->og_eval<br>Sobel test sig. | Age: 19-25<br>Gender: male<br>Sexuality: heterosexual<br>Group: college students    | meeting gay man (Exp. vs Control)                           | positive outgroup evaluations<br>perceived outgroup variability                                                                                     |
+| Husnu & Crisp (2010) Exp.2 | 60 (into 2 conditions) | d = .60 for t-test between cond.<br>Sobel test non-sig (p=0.07) for anx->Att                                            | Age: M=21.0<br>Gender: 15m/45f<br>Religion: non-Muslim<br>Group: college students   | meeting British Muslim (ImgCont vs. elaborated ImgCont)     | intergroup anxiety<br>(intentions to engange in future)<br>(outgroup attitudes)<br>(vividness)                                                      |
+| Turner et al. (2013) Exp.2 | 41 (into 2 conditions) | Sobel test sig for anx->approach_tend<br>Sobel test sig for anx->avoid_tend                                             | Age: 18-21<br>Gender: 14m/27f<br>Sexuality: heterosexual<br>Group: college students | doing preferred acitivty with gay person (Exp. vs. Control) | out-group trust<br>positive outgroup attitudes<br>intergroup anxiety<br>stronger tendency to approach outgroup<br>weaker tendency to avoid outgroup |
+
+## Outgroup Trust
+| source                     | n  | effect size                                                                                                                          | U                                                                                   | T                                                                                                            | O                                                                                                                                                   |
+|----------------------------|----|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Turner et al. (2013) Exp.1 | 36 | d = -1.00 for t-test between cond.<br>Sobel test sig. for trust->approach_tend                                                       | Age: 16-17<br>Gender: 19m/17f<br>Group: High-school students                        | meeting named, same-gendered, photographed assylum seeker                                                    | outgroup trust<br>positive outgroup attitudes<br>approaching behavioral tendencies                                                                  |
+| Turner et al. (2013) Exp.2 | 41 | Sobel test non-sig. for trust->avoid_tend (p=0.08)<br>Sobel test non-sig. for trust->approach_tend (or not computed)                 | Age: 18-21<br>Gender: 14m/27f<br>Sexuality: heterosexual<br>Group: College students | doing preferred acitivty with gay person (Exp. vs. Control)                                                  | out-group trust<br>positive outgroup attitudes<br>intergroup anxiety<br>stronger tendency to approach outgroup<br>weaker tendency to avoid outgroup |
+| Vezzali et al. (2012)      | 34 | d=1.73 for t-tests between cond.<br>sig. effect for trust->attributions of humanness<br>sig. effect for trust->behavioral intentions | Age: M=9;5<br>Gender: 19m/15f<br>Group: Italian fourth-graders                      | interaction with unknown immigrant child that just arrived<br>- at school<br>- in neighbourhood<br>- in park | Outgroup trust<br>Behavioral intentions toward the outgroup<br>Outgroup non-uniquely human emotions<br>Outgroup uniquely human emotions             |
