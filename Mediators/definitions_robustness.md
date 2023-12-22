@@ -1,7 +1,8 @@
 # Summary of Literature Search for Mediating Affective Processes
 ## Definitions
 Following Turner, Crisp, & Lambert (2007, p.2), we define **Intergroup Anxiety** as "negative emotional arousal that can characterize *real or imagined* intergroup encounters".
-Here, the italiszed words are an deviation from the original authors' definition to fit the theory of *imagined* contact.
+
+Here, the italicized words are an deviation from the original authors' definition to fit the theory of *imagined* contact.
 
 Directly adopting from Crisp & Turner (2012, p. 151) we define **Outgroup Trust** as "positive expectations about intentions and behaviour of the outgroup towards one's ingroup".
 
@@ -12,7 +13,7 @@ Directly adopting from Crisp & Turner (2012, p. 151) we define **Outgroup Trust*
 In the following section, we assess the robustness of the theoreticaly-assumed effects of **Intergroup Anxiety** and **Outgroup Trust** as mediators for the effect of imagined intergroup contact on outcome variables. For this we focus on the evidence for the **effect** and the **generilisability** (using the UTOS framework [citation needed]).
 
 ### Intergroup Anxiety
-Considering the work from Turner et al. (2013), Husnu & Crisp (2010) and Turner et al. (2007), it can be concluded that the **effects** of intergroup anxiety as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are negative (i.e. reduced intergroup anxiety) but highly heterogenous. 
+Considering the work from Turner et al. (2013), Husnu & Crisp (2010) and Turner et al. (2007), it can be concluded that the **effects** of intergroup anxiety as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are negative (i.e. reduced intergroup anxiety) but highly heterogenous (e.g., d = -1.49, d = 0.6). 
 
 Studies did not report effect sizes of mediating effects or not in a way they could be clearly assigned to specific effects nor did they offer sufficient information to calculate them. Significance tests on the mediation were signficant most of the time but not always, sometimes depending on the outcome variable.
 Thus, the evidence for the effect sizes is inconclusive.
@@ -23,7 +24,7 @@ Given the evidence, **the mediating effect of Intergroup Anxiety can not be cons
 
 ### Outgroup Trust
 Considering the work from Vezzali et al. (2012) and Turner et al. (2013), it can be concluded that the **effects** of outgroup trust as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are positive but heterogenous, ranging from small to rather large effect sizes. 
-The studies showcase the same flaws as described in [ Intergroup Anxiety](#intergroup-anxiety). Thus, the evidence for the effect sizes is inconclusive.
+The studies showcase the same flaws as described in [Intergroup Anxiety](#intergroup-anxiety). Thus, the evidence for the effect sizes is inconclusive.
 
 The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 34-41), consisting of a limited age-group, although slighty more diverse than in [Intergroup Anxiety](#intergroup-anxiety) by including fourth-graders. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (Assylum seekers, gay men and immigrant children).
 
