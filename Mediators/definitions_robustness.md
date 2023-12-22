@@ -11,14 +11,17 @@ Directly adopting from Crisp & Turner (2012, p. 151) we define **Outgroup Trust*
 In the following section, we assess the robustness of the theoreticaly-assumed effects of **Intergroup Anxiety** and **Outgroup Trust** as mediators for the effect of imagined intergroup contact on outcome variables. For this we focus on the evidence for the **effect** and the **generilisability** (using the UTOS framework [citation needed]).
 
 ### Intergroup Anxiety
-Considering the work from Turner et al. (2013), Husnu & Crisp (2010) and Turner et al. (2007), it can be concluded that the **effects** of intergroup anxiety as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are negative (i.e. reduced intergroup anxiety) but highly heterogenous (e.g., d = -1.49, d = 0.6). 
+Considering the work from Turner et al. (2013), Husnu & Crisp (2010) and Turner et al. (2007), it can be concluded that the **effects** of intergroup anxiety as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are negative (i.e. reduced intergroup anxiety) but highly heterogenous (e.g., d = 1.49, d = 0.6). 
 
-Studies did not report effect sizes of mediating effects or not in a way they could be clearly assigned to specific effects nor did they offer sufficient information to calculate them. Significance tests on the mediation were signficant most of the time but not always, sometimes depending on the outcome variable.
-Thus, the evidence for the effect sizes is inconclusive.
+TODO: direction? 
 
-The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 27-60), consisting of a limited age-group by only drawing from high-school or college students. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (gay men and British Muslims).
+Studies did not report effect sizes of mediating effects or not in a way they could be clearly assigned to specific effects nor did they offer sufficient information to calculate them (???). Significance tests on the mediation were signficant most of the time but not always, sometimes depending on the outcome variable. Thus, the evidence for the effect is inconclusive.
 
-Given the evidence, **the mediating effect of Intergroup Anxiety can not be considered robust** due to heterogenity of the effect and low generalisability, especially because of very small samples drawn from a homogeneous population.
+TODO Unk
+
+The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 27-60), consisting of a limited age-group by only drawing from high-school or college students. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (gay men and British Muslims). (O) + TODO Outcomes and Settings
+
+Given the evidence, **the mediating effect of Intergroup Anxiety can not be considered robust** due to heterogenity of the effect and low or unknown generalisability, especially because of very small samples drawn from a homogeneous population.
 
 ### Outgroup Trust
 Considering the work from Vezzali et al. (2012) and Turner et al. (2013), it can be concluded that the **effects** of outgroup trust as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are positive but heterogenous, ranging from small to rather large effect sizes. 
