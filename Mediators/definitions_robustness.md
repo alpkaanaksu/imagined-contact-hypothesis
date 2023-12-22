@@ -2,7 +2,7 @@
 ## Definitions
 Following Turner, Crisp, & Lambert (2007, p.2), we define **Intergroup Anxiety** as "negative emotional arousal that can characterize *real or imagined* intergroup encounters".
 
-Here, the italicized words are an deviation from the original authors' definition to fit the theory of *imagined* contact.
+Here, the italicized words are a deviation from the original authors' definition to fit the theory of *imagined* contact.
 
 Directly adopting from Crisp & Turner (2012, p. 151) we define **Outgroup Trust** as "positive expectations about intentions and behaviour of the outgroup towards one's ingroup".
 
