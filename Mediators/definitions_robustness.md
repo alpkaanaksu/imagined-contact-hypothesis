@@ -19,7 +19,8 @@ Studies did not report effect sizes of mediating effects or not in a way they co
 
 TODO Unk
 
-The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 27-60), consisting of a limited age-group by only drawing from high-school or college students. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (gay men and British Muslims). (O) + TODO Outcomes and Settings
+The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 27-60), consisting of a limited age-group by only drawing from high-school or college students. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (gay men and British Muslims). 
+**Outcomes** for which the mediating effect was assessed were diverse, including positive outgroup evaluations and perceived outgroup variability (Turner et al., 2007, Exp. 3), tendency to approach the outgroup (Turner et al., 2013, Exp. 2) as well as intention to engange in future contact (Husnu & Crisp, 2010, Exp. 2). There were no information given about the **Setting**.
 
 Given the evidence, **the mediating effect of Intergroup Anxiety can not be considered robust** due to heterogenity of the effect and low or unknown generalisability, especially because of very small samples drawn from a homogeneous population.
 
@@ -27,7 +28,7 @@ Given the evidence, **the mediating effect of Intergroup Anxiety can not be cons
 Considering the work from Vezzali et al. (2012) and Turner et al. (2013), it can be concluded that the **effects** of outgroup trust as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are positive but heterogenous, ranging from small to rather large effect sizes. 
 The studies showcase the same flaws as described in [Intergroup Anxiety](#intergroup-anxiety). Thus, the evidence for the effect sizes is inconclusive.
 
-The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 34-41), consisting of a limited age-group, although slighty more diverse than in [Intergroup Anxiety](#intergroup-anxiety) by including fourth-graders. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (Assylum seekers, gay men and immigrant children).
+The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 34-41), consisting of a limited age-group, although slighty more diverse than in [Intergroup Anxiety](#intergroup-anxiety) by including fourth-graders. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (Assylum seekers, gay men and immigrant children). **Outcomes** included appraoch and avoid behavioral tendency (Turner et al., 2013, Exp. 1 and 2) and attribution of human emotions towards the outgroup and behavioral intentions (Vezzali et al., 2012). There were again no information pertaining to the **Setting** of the individual studies.
 
 Given the evidence, **the mediating effect of Outgroup Trust can not be considered robust** due to heterogenity of the effect and low generalisability, especially because of very small sample sizes.
 
