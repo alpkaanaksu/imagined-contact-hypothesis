@@ -90,6 +90,7 @@ Even though the ICH effect on approach tendency was tested for very different ou
  Mehr aktive Sprache
 
 
+
 # References
 
 Crisp, R. J., Husnu, S., Meleady, R., Stathi, S., & Turner, R. N. (2010). From imagery to intention: A dual route model of imagined contact effects. European Review of Social Psychology, 21(1), 188–236. https://doi.org/10.1080/10463283.2010.543312
