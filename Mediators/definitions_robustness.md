@@ -13,11 +13,7 @@ In the following section, we assess the robustness of the theoreticaly-assumed e
 ### Intergroup Anxiety
 Considering the work from Turner et al. (2013), Husnu & Crisp (2010) and Turner et al. (2007), it can be concluded that the **effects** of intergroup anxiety as a mediator between imagined contact and different operationalisations of attitudes towards outgroups are negative (i.e. reduced intergroup anxiety) but highly heterogenous (e.g., d = 1.49, d = 0.6). 
 
-TODO: direction? 
-
 Studies did not report effect sizes of mediating effects or not in a way they could be clearly assigned to specific effects nor did they offer sufficient information to calculate them (???). Significance tests on the mediation were signficant most of the time but not always, sometimes depending on the outcome variable. Thus, the evidence for the effect is inconclusive.
-
-TODO Unk
 
 The **generalisability** across the **Unit** dimension is limited because samples are overall small (n = 27-60), consisting of a limited age-group by only drawing from high-school or college students. **Treatments** varied slightly in regard of the characteristics of the imagined outgroup (gay men and British Muslims). 
 **Outcomes** for which the mediating effect was assessed were diverse, including positive outgroup evaluations and perceived outgroup variability (Turner et al., 2007, Exp. 3), tendency to approach the outgroup (Turner et al., 2013, Exp. 2) as well as intention to engange in future contact (Husnu & Crisp, 2010, Exp. 2). There were no information given about the **Setting**.
