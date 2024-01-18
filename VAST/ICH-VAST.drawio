@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-18T10:21:18.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="Xq35g5AwttfZ4qC6da5A" version="22.1.18" type="device">
+<mxfile host="Electron" modified="2024-01-18T10:24:32.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="L2QSIaDI2_sql57unfAc" version="22.1.18" type="device">
   <diagram name="Seite-1" id="5yZLBT5A5RAoVS_Xg-lV">
-    <mxGraphModel dx="1527" dy="442" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1930" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -352,13 +352,6 @@
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U7w9YXxzY0TWjTic5yac-5" target="U7w9YXxzY0TWjTic5yac-61" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="389" y="1376.25" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="U7w9YXxzY0TWjTic5yac-5" value="affective tone of IIC" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="352.5" y="1444.25" width="73" height="36" as="geometry" />
         </mxCell>
@@ -491,18 +484,6 @@
         </mxCell>
         <mxCell id="U7w9YXxzY0TWjTic5yac-56" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;cumulative process&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="601" y="1430.25" width="81" height="65.5" as="geometry" />
-        </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U7w9YXxzY0TWjTic5yac-61" target="U7w9YXxzY0TWjTic5yac-63" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-61" value="momentary (increased) trust" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="470" y="1360.25" width="90" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="U7w9YXxzY0TWjTic5yac-63" target="U7w9YXxzY0TWjTic5yac-52" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-63" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;cumulative process&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="601" y="1354" width="81" height="65.5" as="geometry" />
         </mxCell>
         <mxCell id="U7w9YXxzY0TWjTic5yac-66" value="c&lt;br&gt;expAnx (als Stereotyp / a priori-Annahme) beeinflusst welchen tone eine IIC hat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="405" y="1537.25" width="263" height="37" as="geometry" />
