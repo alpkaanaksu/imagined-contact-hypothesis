@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T08:27:10.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="TwVOqpNcC0dlJngiIU4f" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T08:33:20.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="rU2IBgyTSbqo6YZ5j07q" version="23.0.1" type="github">
   <diagram name="Seite-1" id="5yZLBT5A5RAoVS_Xg-lV">
-    <mxGraphModel dx="2125" dy="618" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1746" dy="438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,14 +366,14 @@
         <mxCell id="U7w9YXxzY0TWjTic5yac-11" value="&quot;&#39;tone&#39; is the unidimensional average valence of an interaction, ranging from negative (-1) to positive (+1)&quot;" style="rounded=0;whiteSpace=wrap;html=1;spacing=12;" parent="1" vertex="1">
           <mxGeometry x="-275" y="488" width="336" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-20" value="affective component affAtt" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="U7w9YXxzY0TWjTic5yac-20" value="affective component of attitude" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="180.5" y="800" width="80" height="46" as="geometry" />
         </mxCell>
         <mxCell id="U7w9YXxzY0TWjTic5yac-21" value="&quot;TODO&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="395" y="863.5" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-25" value="cognitive component" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="180.5" y="856" width="80" height="34" as="geometry" />
+        <mxCell id="U7w9YXxzY0TWjTic5yac-25" value="cognitive component of attitude" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="180.5" y="856" width="80" height="52" as="geometry" />
         </mxCell>
         <mxCell id="U7w9YXxzY0TWjTic5yac-26" value="behavioral tendency" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="183" y="925" width="80" height="34" as="geometry" />
@@ -419,7 +419,7 @@
         <mxCell id="U7w9YXxzY0TWjTic5yac-43" value="&quot;interest in approaching and getting to know other people&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="222.5" y="1192" width="150" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="U7w9YXxzY0TWjTic5yac-68" value="affective attitude" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="U7w9YXxzY0TWjTic5yac-68" value="affective component of attitude" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="24" y="1035" width="75" height="46" as="geometry" />
         </mxCell>
         <mxCell id="U7w9YXxzY0TWjTic5yac-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -686,10 +686,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-19" value="affective tone of instruction" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="-73.5" y="2288.75" width="113" height="52" as="geometry" />
+          <mxGeometry x="109" y="2287.75" width="113" height="52" as="geometry" />
         </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-20" value="momentary&amp;nbsp; anxiety" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="452.5" y="2286" width="90" height="54" as="geometry" />
+          <mxGeometry x="480" y="2286" width="90" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uMaJT4io1jXQAUHvdl5g-26" target="uMaJT4io1jXQAUHvdl5g-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -700,11 +700,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMaJT4io1jXQAUHvdl5g-26" value="affective attitude towards outgroup" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="695.5" y="2286.75" width="158" height="54" as="geometry" />
+        <mxCell id="uMaJT4io1jXQAUHvdl5g-26" value="expected anxiety" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="658.5" y="2286.75" width="158" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-27" value="behavioral tendency" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="890.5" y="2286.75" width="90" height="54" as="geometry" />
+          <mxGeometry x="868" y="2286.75" width="90" height="54" as="geometry" />
         </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uMaJT4io1jXQAUHvdl5g-32" target="uMaJT4io1jXQAUHvdl5g-26" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -732,9 +732,6 @@
         </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-32" value="c (M) *" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590.5" y="2300.88" width="44" height="25.75" as="geometry" />
-        </mxCell>
-        <mxCell id="uMaJT4io1jXQAUHvdl5g-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-85.5" y="2206" width="1093" height="251" as="geometry" />
         </mxCell>
         <mxCell id="k0RPa9TTd6g5XIO5WT---5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" source="k0RPa9TTd6g5XIO5WT---29" target="k0RPa9TTd6g5XIO5WT---11" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -768,10 +765,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0RPa9TTd6g5XIO5WT---16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" source="k0RPa9TTd6g5XIO5WT---21" target="k0RPa9TTd6g5XIO5WT---29" parent="1">
+        <mxCell id="k0RPa9TTd6g5XIO5WT---16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="k0RPa9TTd6g5XIO5WT---21" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185" y="1855" as="targetPoint" />
-            <Array as="points" />
+            <mxPoint x="169" y="1852" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="169" y="1852" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="k0RPa9TTd6g5XIO5WT---17" value="attitude towards outgroup" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
@@ -820,7 +819,10 @@
           <mxGeometry x="-151.25" y="1608" width="479" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k0RPa9TTd6g5XIO5WT---35" value="Simplified VAST display of implemented model" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-155" y="2103" width="641" height="30" as="geometry" />
+          <mxGeometry x="-155" y="2066" width="641" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k0RPa9TTd6g5XIO5WT---36" value="&lt;h1&gt;Simplifications&lt;/h1&gt;&lt;p&gt;- IIC is reduced to its affective tone (ignoring the process of the &lt;i&gt;mental imagery&lt;/i&gt;)&lt;/p&gt;&lt;p&gt;- Attitude is reduced to its affective component (ignoring&amp;nbsp;&lt;i&gt;cognitive component of&amp;nbsp;attitude)&lt;/i&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;i&gt;affective component of attitude&lt;/i&gt;&amp;nbsp;is reduced to &lt;i&gt;expected anxiety&lt;/i&gt; (ignoring &lt;i&gt;liking&lt;/i&gt;)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="2129" width="190" height="247" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
