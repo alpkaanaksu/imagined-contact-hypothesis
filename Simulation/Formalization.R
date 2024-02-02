@@ -12,6 +12,15 @@ expected_anxiety <- function(momentary_anxiety, previous_expected_anxiety, alpha
   momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)
 }
 
+#' ALTERNATIVE: Compute the updated expected anxiety
+#'
+#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1
+#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1
+#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) and the previous expected anxiety (alpha=0) when the updated expected anxiety is computed.
+expected_anxiety_alternative <- function(momentary_anxiety, previous_expected_anxiety, previous_experience) {
+  alpha <- 1 / (1 + 0.1 * previous_experience)
+  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)
+}
 
 #' Compute the momentary anxiety 
 #'
