@@ -13,27 +13,29 @@ expected_anxiety <- function(momentary_anxiety, previous_expected_anxiety, alpha
 }
 
 
-#' Compute the momentary anxiety
+#' Compute the momentary anxiety 
 #'
-#' @param affective_tone_iic The momentary anxiety, on a scale from 0 to 1
+#' @param affective_tone_iic The affective tone of the iic, on a scale from 0 to 1
 momentary_anxiety <- function(affective_tone_iic) {
   0.05*exp(-2*affective_tone_iic)
 }
 
-#' Compute the updated expected anxiety
+#' Compute the affective tone of iic
 #'
-#' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1
-#' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1
-#' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) and the previous expected anxiety (alpha=0) when the updated expected anxiety is computed.
+#' @param affective_tone_instruction The affective tone of instruction, on a scale from -1 to 1
+#' @param expected_anxiety The expected anxiety, on a scale from 0 to 1
+#' @param beta_instruction Regression slope of the effect of the affective tone of instruction 
+#' @param beta_anxiety Regression slope of the effect of the expected anxiety
+#' @param beta_interaction Regression slope of the interaction between expected anxiety and the tone of instruction
 affective_tone_iic <- function(affective_tone_instruction,
                        expected_anxiety,
                        beta_instruction=1,
-                       beta_anx=-1,
-                       beta_IA=-0.3) {
+                       beta_anxiety=-1,
+                       beta_interaction=-0.3) {
 
     beta_instruction*affective_tone_instruction +
-    beta_anx*expected_anxiety +
-    beta_IA*expected_anxiety*affective_tone_instruction
+    beta_anxiety*expected_anxiety +
+    beta_interaction*expected_anxiety*affective_tone_instruction
 }
 
 #' Compute the resulting approach tendency
