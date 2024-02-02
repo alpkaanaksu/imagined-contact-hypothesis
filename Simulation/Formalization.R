@@ -64,24 +64,70 @@ person <- c(expected_anxiety = 0.2, alpha = 0.3)
 iic_iteration <- function(affective_tone_instruction, person) {
   ati <- affective_tone_iic(affective_tone_instruction, person$expected_anxiety)
   ma <- momentary_anxiety(affective_tone_iic = ati)
-  ea <- expected_anxiety(momentary_anxiety = ma, 
-                        previous_expected_anxiety = person$expected_anxiety, 
+  ea <- expected_anxiety(momentary_anxiety = ma,
+                        previous_expected_anxiety = person$expected_anxiety,
                         alpha = person$alpha)
 
-  c(expected_anxiety = ea, alpha = person$alpha)
+  person$expected_anxiety <- ea
+  person
 }
 
 iic_intervention <- function(num_iterations, person, affective_tone_instruction) {
   for (i in seq_len(num_iterations)) {
     person <- iic_iteration(affective_tone_instruction, person)
   }
-  
+
   person
 }
 
 #------------------------------------------------------------
+# Helper Functions
+#------------------------------------------------------------
+
+generate_group <- function(n) {
+  data.frame(
+    id = seq_len(n),
+    alpha = rnorm(n, 0.2, 0.1),
+    expected_anxiety = rnorm(n, 0.3, 0.1)
+  )
+}
+
+#------------------------------------------------------------
+# Test
+#------------------------------------------------------------
+
+library(dplyr)
+
+instruction_tone <- 0.8
+intervention_iterations <- 20
+
+group <- generate_group(1000)
+
+group <- group |>
+  mutate(condition = ifelse(id %% 2 == 0, "treatment", "control"))
+
+t.test(group$expected_anxiety ~ group$condition, alternative = "greater")
+
+group <- group |>
+  mutate(
+    expected_anxiety =
+      ifelse(
+        condition == "treatment",
+        iic_intervention(
+          intervention_iterations,
+          person = list(expected_anxiety = expected_anxiety, alpha = alpha),
+          affective_tone_instruction = instruction_tone)$expected_anxiety,
+        expected_anxiety
+      )
+  )
+
+
+t.test(group$expected_anxiety ~ group$condition, alternative = "greater")
+
+#------------------------------------------------------------
 # Plots for testing
 #------------------------------------------------------------
+
 
 affective_tone_iic_values <- seq(-1, 1, by=.01)
 plot(affective_tone_iic_values, momentary_anxiety(affective_tone_iic_values), xlim=c(-1, 1), ylim=c(0, 1), type="l")
