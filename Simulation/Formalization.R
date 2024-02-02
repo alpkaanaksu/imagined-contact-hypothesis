@@ -58,9 +58,15 @@ approach_tendency <- function(expected_anxiety) {
 #------------------------------------------------------------
 # Simulation
 #------------------------------------------------------------
-person <- c(expected_anxiety = 0.2, alpha = 0.3)
 
 
+#' Compute updated person after one iic
+#'
+#' @param affective_tone_instruction The affective tone of instruction, on a scale from -1 to 1
+#' @param person Name vector c(expected_anxiety, alpha) where expected anxiety is
+#'  the initial expected anxiety and alpha of that person
+#' 
+#' @return updated person vector after one iteration
 iic_iteration <- function(affective_tone_instruction, person) {
   ati <- affective_tone_iic(affective_tone_instruction, person$expected_anxiety)
   ma <- momentary_anxiety(affective_tone_iic = ati)
@@ -72,6 +78,15 @@ iic_iteration <- function(affective_tone_instruction, person) {
   person
 }
 
+#' Compute updated person after complete iic intervention
+#'
+#' @param num_iterations The number of iics the person will go through
+#' @param affective_tone_instruction The affective tone of instruction throughout
+#'  the intervention, on a scale from -1 to 1
+#' @param person Name vector c(expected_anxiety, alpha) where expected anxiety is
+#'  the initial expected anxiety before the intervention and alpha of that person
+#' 
+#' @return updated person vector after complete intervention
 iic_intervention <- function(num_iterations, person, affective_tone_instruction) {
   for (i in seq_len(num_iterations)) {
     person <- iic_iteration(affective_tone_instruction, person)
