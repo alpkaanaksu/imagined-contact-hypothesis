@@ -8,6 +8,7 @@
 #' @param momentary_anxiety The momentary anxiety, on a scale from 0 to 1
 #' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1
 #' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) and the previous expected anxiety (alpha=0) when the updated expected anxiety is computed.
+
 expected_anxiety <- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {
   ea <-  momentary_anxiety * alpha + previous_expected_anxiety * (1 - alpha)
   min(1, ea)
@@ -103,8 +104,8 @@ iic_intervention <- function(num_iterations, person, affective_tone_instruction)
 generate_group <- function(n) {
   data.frame(
     id = seq_len(n),
-    alpha = rnorm(n, 0.2, 0.1),
-    expected_anxiety = rnorm(n, 0.3, 0.1)
+    alpha = rbeta(n, shape1=3, shape2=12),
+    expected_anxiety = rbeta(n, shape1=4, shape2=4.7)
   )
 }
 
@@ -114,17 +115,23 @@ generate_group <- function(n) {
 
 library(dplyr)
 
-instruction_tone <- 0.8
-intervention_iterations <- 20
 
-group <- generate_group(1000)
+# Do a simulated study with n=100 (overall)
+#------------------------------------------------
+
+instruction_tone <- 0.5
+intervention_iterations <- 1
+n <- 100 # overall sample size (control + experimental group)
+
+group <- generate_group(n)
 
 group <- group |>
   mutate(condition = ifelse(id %% 2 == 0, "treatment", "control"))
 
+
 group <- group |>
   mutate(
-    expected_anxiety =
+    expected_anxiety_t2 =
       ifelse(
         condition == "treatment",
         iic_intervention(
@@ -135,8 +142,107 @@ group <- group |>
       )
   )
 
+# groups difference after intervention: treatment effect
+t1 <- t.test(group$expected_anxiety_t2 ~ group$condition, alternative = "greater")
+t1
 
-t.test(group$expected_anxiety ~ group$condition, alternative = "greater")
+library(compute.es)
+ES <- tes(t1$statistic, n/2, n/2, level = 95, verbose=FALSE)
+ES$d
+
+# compare with pusblished treatment effects: Turner et al. 2013, Exp 2
+tes(t=4.63, n.1=20, n.2=21) # -> d = 1.45 LOL
+
+# install.packages('ggrain')
+library(ggrain)
+ggplot(group, aes(x=condition, y=expected_anxiety_t2)) + geom_rain() + ggtitle(paste0("Effect size: d = ", round(ES$d, 2)))
+
+
+# Systematically investigate the effect of 
+# affective_tone_instruction on raw treatment effect
+#------------------------------------------------
+
+# show raw treatment effect (i.e., mean difference for different intervention strengths
+# Use huge samples to get precise estimates
+TE <- data.frame()
+for (instr_tone in seq(-1, 1, by=0.2)) {
+  print(instr_tone)
+  group <- generate_group(n=10000)
+
+  group <- group |>
+    mutate(condition = ifelse(id %% 2 == 0, "treatment", "control"))
+
+  group <- group |>
+    mutate(
+      expected_anxiety_t2 =
+        ifelse(
+          condition == "treatment",
+          iic_intervention(
+            intervention_iterations,
+            person = list(expected_anxiety = expected_anxiety, alpha = alpha),
+            affective_tone_instruction = instr_tone)$expected_anxiety,
+          expected_anxiety
+        )
+    )
+
+  # groups difference after intervention: raw treatment effect
+  mean_diff <- diff(tapply(group$expected_anxiety_t2, group$condition, mean))
+
+  TE <- rbind(TE, data.frame(
+    instr_tone = instr_tone,
+    mean_diff = mean_diff
+  ))
+}
+
+ggplot(TE, aes(x=instr_tone, y=mean_diff)) + geom_point() + geom_line()
+
+
+#------------------------------------------------------------
+# Sensitivity analyses
+#------------------------------------------------------------
+
+# explore the boundaries (and combinations) of certain parameters
+params <- expand.grid(
+  expected_anxiety = c(0, .2, .4, .6, .8, 1),
+  alpha = c(0, .25, .5, .75, 1)
+)
+
+update <- iic_intervention(1, params, affective_tone_instruction=-1)
+res <- cbind(params, expected_anxiety_updated = update[, 1])
+res$alpha_label <- paste0("alpha = ", res$alpha)
+ggplot(res, aes(x=expected_anxiety, y=expected_anxiety_updated)) + geom_point() + geom_line() + facet_grid(~alpha_label)
+
+
+# add one more dimension: vary the impact of the affective_tone_instruction
+res <- data.frame()
+for (ati in seq(-1, 1, by=0.5)) {
+  update <- iic_intervention(1, params, affective_tone_instruction=ati)
+  res0 <- cbind(params, expected_anxiety_updated = update[, 1])
+  res0$affective_tone_instruction <- ati
+  res <- rbind(res, res0)
+}
+
+library(ggplot2)
+res$alpha_label <- paste0("alpha = ", res$alpha)
+res$ati_label <- factor(res$affective_tone_instruction, levels=sort(unique(res$affective_tone_instruction)), labels=paste0("ati = ", sort(unique(res$affective_tone_instruction))))
+ggplot(res, aes(x=expected_anxiety, y=expected_anxiety_updated)) + 
+  geom_point() + 
+  geom_line() + 
+  facet_grid(ati_label~alpha_label) +
+  geom_abline(intercept=0, slope=1, linetype="dashed") +
+  geom_hline(yintercept=0, linetype="dotted", color="red", size=1) +
+  geom_hline(yintercept=1, linetype="dotted", color="red", size=1)
+
+# Uppsi: Unser Modell generiert Werte für expAnx_Updated, die außerhalb des Wertebereichs liegen
+
+# different visualization: the difference from expected_anxiety and expected_anxiety_updated (= treatment effect)
+res$expAnxChange <- res$expected_anxiety_updated - res$expected_anxiety
+ggplot(res, aes(x=expected_anxiety, y=expAnxChange)) + geom_point() + geom_line() + facet_grid(ati_label~alpha_label)
+
+# New hypotheses generated from the model:
+
+# if the expected_anxiety at t0 is (close to) zero, the intervention makes no difference
+# 
 
 #------------------------------------------------------------
 # Plots for testing
