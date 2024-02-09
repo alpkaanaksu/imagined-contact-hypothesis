@@ -9,7 +9,7 @@
 #' @param previous_expected_anxiety The previous expected anxiety, on a scale from 0 to 1
 #' @param alpha A factor that shifts the weight between the momentary anxiety (alpha=1) and the previous expected anxiety (alpha=0) when the updated expected anxiety is computed.
 expected_anxiety <- function(momentary_anxiety, previous_expected_anxiety, alpha=0.5) {
-  momentary_anxiety*alpha + previous_expected_anxiety*(1-alpha)
+  min(1, momentary_anxiety * alpha + previous_expected_anxiety * (1 - alpha))
 }
 
 #' ALTERNATIVE: Compute the updated expected anxiety
@@ -120,8 +120,6 @@ group <- generate_group(1000)
 
 group <- group |>
   mutate(condition = ifelse(id %% 2 == 0, "treatment", "control"))
-
-t.test(group$expected_anxiety ~ group$condition, alternative = "greater")
 
 group <- group |>
   mutate(
