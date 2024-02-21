@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T10:22:54.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UuV9j042ovpIOwg1qsIN" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T14:57:17.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="McsLC0hmNPGVWqzON-aq" version="23.1.2" type="github">
   <diagram name="Seite-1" id="5yZLBT5A5RAoVS_Xg-lV">
-    <mxGraphModel dx="1544" dy="294" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1752" dy="776" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -383,12 +383,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uMaJT4io1jXQAUHvdl5g-8" value="&lt;span style=&quot;font-family: SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;$$\text{* affective attitude}_{i+1} = (\text{momentary anxiety} \cdot \alpha) + (\text{affective attitude}_i \cdot (1- \alpha))$$&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=default;fontSize=10;align=left;" parent="1" vertex="1">
-          <mxGeometry x="234.38" y="1758" width="489" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="uMaJT4io1jXQAUHvdl5g-9" value="$$\text{wobei } \alpha = \dfrac{2}{1+N}, N = \text{Anzahl an Kontaktpunkte/Referenzen mit Outgroup}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="236.38" y="1807" width="475" height="24" as="geometry" />
-        </mxCell>
         <mxCell id="uMaJT4io1jXQAUHvdl5g-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uMaJT4io1jXQAUHvdl5g-16" target="uMaJT4io1jXQAUHvdl5g-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -570,7 +564,7 @@
         <mxCell id="k0RPa9TTd6g5XIO5WT---40" value="✓" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="266.38" y="1873" width="60" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="tWpsEq7h32EamkDIyfvK-1" value="G" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="tWpsEq7h32EamkDIyfvK-1" value="G" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="136.63279069767438" y="912.5032558139535" as="geometry">
             <mxPoint x="133" y="-30" as="offset" />
           </mxGeometry>
